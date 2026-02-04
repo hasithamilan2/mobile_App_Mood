@@ -1,0 +1,22 @@
+<resources>
+    <!-- 60% Primary Color -->
+    <color name="colorPrimary">#009688</color> <!-- Teal -->
+
+    <!-- 30% Secondary Color -->
+    <color name="colorSecondary">#FFEB3B</color> <!-- Yellow -->
+
+    <!-- 10% Accent Color -->
+    <color name="colorAccent">#FFC107</color> <!-- Amber -->
+
+    <!-- Darker variant of Primary Color -->
+    <color name="colorPrimaryDark">#00796B</color> <!-- Dark Teal -->
+
+    <!-- Text Color -->
+    <color name="textColorPrimary">#212121</color> <!-- Dark Gray -->
+
+    <!-- Background Color -->
+    <color name="backgroundColor">#F5F5F5</color> <!-- Light Gray -->
+
+    <!-- Button Color -->
+    <color name="buttonColor">#FF5722</color> <!-- Deep Orange -->
+</resources>

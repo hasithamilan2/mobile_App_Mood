@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="110dp"
+    android:height="110dp"
+    android:viewportWidth="110"
+    android:viewportHeight="110">
+
+    <!-- Widget background -->
+    <path
+        android:fillColor="@color/backgroundColor"
+        android:pathData="M10,0L100,0C105.52,0 110,4.48 110,10L110,100C110,105.52 105.52,110 100,110L10,110C4.48,110 0,105.52 0,100L0,10C0,4.48 4.48,0 10,0z"
+        android:strokeWidth="2"
+        android:strokeColor="@color/colorPrimary" />
+
+    <!-- Widget title text -->
+    <path
+        android:fillColor="@color/colorPrimaryDark"
+        android:pathData="M55,20L55,20A1,1 0,0 1,56 21L56,23A1,1 0,0 1,55 24L55,24A1,1 0,0 1,54 23L54,21A1,1 0,0 1,55 20z" />
+
+    <!-- Circular progress indicator (80% complete) -->
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M55,55m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:strokeWidth="4"
+        android:strokeColor="#DDDDDD" />
+    
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M55,55m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0"
+        android:strokeWidth="4"
+        android:strokeColor="@color/colorPrimary"
+        android:strokeLineCap="round"
+        android:trimPathEnd="0.8" /> <!-- 80% progress -->
+
+    <!-- Percentage text -->
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:pathData="M43,55L43,55A1,1 0,0 1,44 56L44,58A1,1 0,0 1,43 59L43,59A1,1 0,0 1,42 58L42,56A1,1 0,0 1,43 55z" />
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:pathData="M49,55L49,55A1,1 0,0 1,50 56L50,58A1,1 0,0 1,49 59L49,59A1,1 0,0 1,48 58L48,56A1,1 0,0 1,49 55z" />
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:pathData="M55,55L55,55A1,1 0,0 1,56 56L56,58A1,1 0,0 1,55 59L55,59A1,1 0,0 1,54 58L54,56A1,1 0,0 1,55 55z" />
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:pathData="M61,55L61,55A1,1 0,0 1,62 56L62,58A1,1 0,0 1,61 59L61,59A1,1 0,0 1,60 58L60,56A1,1 0,0 1,61 55z" />
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:pathData="M67,55L67,55A1,1 0,0 1,68 56L68,58A1,1 0,0 1,67 59L67,59A1,1 0,0 1,66 58L66,56A1,1 0,0 1,67 55z" />
+
+    <!-- Habit count text -->
+    <path
+        android:fillColor="@color/textColorPrimary"
+        android:pathData="M55,75L55,75A1,1 0,0 1,56 76L56,78A1,1 0,0 1,55 79L55,79A1,1 0,0 1,54 78L54,76A1,1 0,0 1,55 75z" />
+
+    <!-- Last updated text -->
+    <path
+        android:fillColor="@color/textColorPrimary"
+        android:pathData="M55,95L55,95A1,1 0,0 1,56 96L56,98A1,1 0,0 1,55 99L55,99A1,1 0,0 1,54 98L54,96A1,1 0,0 1,55 95z" />
+</vector>
